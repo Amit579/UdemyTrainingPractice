@@ -14,6 +14,7 @@
 		044494C4281D10EC00F1B00C /* FirstiOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 044494C2281D10EC00F1B00C /* FirstiOSApp.xcdatamodeld */; };
 		044494C6281D10ED00F1B00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044494C5281D10ED00F1B00C /* Assets.xcassets */; };
 		044494C9281D10ED00F1B00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044494C7281D10ED00F1B00C /* LaunchScreen.storyboard */; };
+		048D14BA281E2B4B00723EBD /* ButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D14B9281E2B4B00723EBD /* ButtonViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		044494C5281D10ED00F1B00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044494C8281D10ED00F1B00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044494CA281D10ED00F1B00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048D14B9281E2B4B00723EBD /* ButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		044494B8281D10EC00F1B00C /* FirstiOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				048D14B8281E2B2E00723EBD /* Common Files */,
 				044494B9281D10EC00F1B00C /* AppDelegate.swift */,
 				044494BB281D10EC00F1B00C /* SceneDelegate.swift */,
 				044494BD281D10EC00F1B00C /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				044494C2281D10EC00F1B00C /* FirstiOSApp.xcdatamodeld */,
 			);
 			path = FirstiOSApp;
+			sourceTree = "<group>";
+		};
+		048D14B8281E2B2E00723EBD /* Common Files */ = {
+			isa = PBXGroup;
+			children = (
+				048D14B9281E2B4B00723EBD /* ButtonViews.swift */,
+			);
+			path = "Common Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			files = (
 				044494C4281D10EC00F1B00C /* FirstiOSApp.xcdatamodeld in Sources */,
 				044494BE281D10EC00F1B00C /* ViewController.swift in Sources */,
+				048D14BA281E2B4B00723EBD /* ButtonViews.swift in Sources */,
 				044494BA281D10EC00F1B00C /* AppDelegate.swift in Sources */,
 				044494BC281D10EC00F1B00C /* SceneDelegate.swift in Sources */,
 			);
