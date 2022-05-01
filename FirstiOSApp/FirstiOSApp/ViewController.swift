@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 //MARK:-Change Button Action
     @IBAction func changeButton(_ sender: UIButton) {
         changeNameLbel.text = "Hey Hi Amit"
+        print("Yes you switch the branch")
     }
 }
 
