@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "IMG-20190125-WA0001.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
