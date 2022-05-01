@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameImageView: UIImageView!
     @IBOutlet weak var changeNameLbel: UILabel!
     
+    @IBOutlet weak var oldUserNameLabel: UILabel!
     @IBOutlet weak var changeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
     @IBAction func changeButton(_ sender: UIButton) {
         changeNameLbel.text = "Hey Hi Amit"
         print("Yes you switch the branch")
+        oldUserNameLabel.text = "Hello Amit this side Json!"
     }
 }
 

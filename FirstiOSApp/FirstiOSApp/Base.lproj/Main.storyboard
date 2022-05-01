@@ -71,6 +71,7 @@
                         <outlet property="changeButton" destination="OVE-Ed-PWY" id="dpd-WN-XSv"/>
                         <outlet property="changeNameLbel" destination="BQa-Eh-eky" id="pwd-63-mdU"/>
                         <outlet property="nameImageView" destination="VAj-2U-mzY" id="gCX-Fq-9Pq"/>
+                        <outlet property="oldUserNameLabel" destination="VNe-tN-KRc" id="vVG-wi-0sX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
