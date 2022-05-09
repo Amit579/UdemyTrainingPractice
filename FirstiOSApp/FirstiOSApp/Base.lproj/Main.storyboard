@@ -18,10 +18,6 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amit" translatesAutoresizingMaskIntoConstraints="NO" id="VAj-2U-mzY">
                                 <rect key="frame" x="107" y="106" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="EA0-7T-FSe"/>
-                                    <constraint firstAttribute="height" constant="200" id="e8R-nj-OO2"/>
-                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chane Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQa-Eh-eky">
                                 <rect key="frame" x="107" y="352" width="200" height="40"/>
@@ -77,21 +73,21 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="VNe-tN-KRc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="1nH-PM-1Ky"/>
-                            <constraint firstItem="BQa-Eh-eky" firstAttribute="top" secondItem="VAj-2U-mzY" secondAttribute="bottom" constant="46" id="5Ky-dK-45s"/>
                             <constraint firstItem="LB2-34-FAc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="6NM-KG-7fi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LB2-34-FAc" secondAttribute="bottom" constant="283" id="9yk-dB-xja"/>
                             <constraint firstItem="VNe-tN-KRc" firstAttribute="top" secondItem="BQa-Eh-eky" secondAttribute="bottom" constant="12" id="Bnc-pP-Xhp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VAj-2U-mzY" secondAttribute="trailing" constant="107" id="Cvd-ly-0AF"/>
                             <constraint firstItem="BQa-Eh-eky" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="D5K-su-E1x"/>
                             <constraint firstItem="LB2-34-FAc" firstAttribute="top" secondItem="OVE-Ed-PWY" secondAttribute="bottom" constant="42" id="EIa-E9-dxz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BQa-Eh-eky" secondAttribute="trailing" constant="107" id="MjB-qL-DeH"/>
+                            <constraint firstItem="VAj-2U-mzY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="Pft-2S-hOp"/>
                             <constraint firstItem="OVE-Ed-PWY" firstAttribute="top" secondItem="VNe-tN-KRc" secondAttribute="bottom" constant="8" id="Wjs-Ni-He1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LB2-34-FAc" secondAttribute="trailing" constant="137" id="atA-wR-g2o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VAj-2U-mzY" secondAttribute="trailing" constant="107" id="beZ-zl-99g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VNe-tN-KRc" secondAttribute="trailing" constant="107" id="eTk-dx-NND"/>
                             <constraint firstItem="OVE-Ed-PWY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="i0W-Gz-qJd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OVE-Ed-PWY" secondAttribute="trailing" constant="107" id="nAp-fS-2Ds"/>
-                            <constraint firstItem="VAj-2U-mzY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="wZp-KN-h1S"/>
-                            <constraint firstItem="VAj-2U-mzY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="z7L-0F-Tgw"/>
+                            <constraint firstItem="VAj-2U-mzY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="qKl-2o-S5E"/>
+                            <constraint firstItem="BQa-Eh-eky" firstAttribute="top" secondItem="VAj-2U-mzY" secondAttribute="bottom" constant="46" id="xR3-Lc-vha"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nV8-y8-83o"/>
@@ -100,6 +96,7 @@
                         <outlet property="changeNameLbel" destination="BQa-Eh-eky" id="pwd-63-mdU"/>
                         <outlet property="nameImageView" destination="VAj-2U-mzY" id="gCX-Fq-9Pq"/>
                         <outlet property="oldUserNameLabel" destination="VNe-tN-KRc" id="vVG-wi-0sX"/>
+                        <outlet property="timerLabel" destination="LB2-34-FAc" id="8KN-mN-meK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
