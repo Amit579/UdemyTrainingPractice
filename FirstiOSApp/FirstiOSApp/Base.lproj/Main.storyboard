@@ -23,23 +23,29 @@
                                     <constraint firstAttribute="height" constant="200" id="e8R-nj-OO2"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chane Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQa-Eh-eky">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chane Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQa-Eh-eky">
                                 <rect key="frame" x="107" y="352" width="200" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xUO-L8-yMq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                 <color key="textColor" red="0.94117647059999998" green="0.4549019608" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jason " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNe-tN-KRc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jason " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNe-tN-KRc">
                                 <rect key="frame" x="107" y="404" width="200" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="F1U-ft-VPc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <color key="textColor" red="0.94117647059999998" green="0.4549019608" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVE-Ed-PWY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVE-Ed-PWY">
                                 <rect key="frame" x="107" y="452" width="200" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="EEf-Gt-zk1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Change"/>
                                 <userDefinedRuntimeAttributes>
@@ -61,7 +67,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="VNe-tN-KRc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="1nH-PM-1Ky"/>
+                            <constraint firstItem="BQa-Eh-eky" firstAttribute="top" secondItem="VAj-2U-mzY" secondAttribute="bottom" constant="46" id="5Ky-dK-45s"/>
+                            <constraint firstItem="VNe-tN-KRc" firstAttribute="top" secondItem="BQa-Eh-eky" secondAttribute="bottom" constant="12" id="Bnc-pP-Xhp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VAj-2U-mzY" secondAttribute="trailing" constant="107" id="Cvd-ly-0AF"/>
+                            <constraint firstItem="BQa-Eh-eky" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="D5K-su-E1x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BQa-Eh-eky" secondAttribute="trailing" constant="107" id="MjB-qL-DeH"/>
+                            <constraint firstItem="OVE-Ed-PWY" firstAttribute="top" secondItem="VNe-tN-KRc" secondAttribute="bottom" constant="8" id="Wjs-Ni-He1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VNe-tN-KRc" secondAttribute="trailing" constant="107" id="eTk-dx-NND"/>
+                            <constraint firstItem="OVE-Ed-PWY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="i0W-Gz-qJd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OVE-Ed-PWY" secondAttribute="trailing" constant="107" id="nAp-fS-2Ds"/>
                             <constraint firstItem="VAj-2U-mzY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="wZp-KN-h1S"/>
                             <constraint firstItem="VAj-2U-mzY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="z7L-0F-Tgw"/>
                         </constraints>
